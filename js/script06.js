@@ -1,7 +1,7 @@
 function calcularFatorial() {
-    const input = document.getElementById("numero");
+    const campoNumero = document.getElementById("numero");
     const resultado = document.getElementById("resultado");
-    const num = parseInt(input.value);
+    const num = parseInt(campoNumero.value);
 
     if (isNaN(num) || num < 0) {
         resultado.textContent = "Por favor, digite um número inteiro não negativo.";
